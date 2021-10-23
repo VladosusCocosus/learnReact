@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.tasks {
+  margin: 40px 0;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  height: calc(46px - 28px);
+  background-color: #e1e1e1;
+  padding: 14px 21px;
+  border-right: 14px;
+}
+
+.task + .task {
+  margin-top: 12px;
+}
